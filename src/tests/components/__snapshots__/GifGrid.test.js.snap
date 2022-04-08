@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component <GifGrid/> It should display GifGrid correctly 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeInDown"
+  >
+    Demon Slayer
+  </h3>
+  <p
+    className="animate__animated animate__fadeInDown"
+  >
+    Loading
+  </p>
+  <div
+    className="container-cards"
+  />
+</Fragment>
+`;
+
+exports[`Component <GifGrid/> Should display items when images are loaded 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeInDown"
+  >
+    Demon Slayer
+  </h3>
+  <div
+    className="container-cards"
+  >
+    <GifGridItem
+      id="ABC"
+      key="ABC"
+      title="Cualquier cosa"
+      url="https://localhost/cualquier/cosa"
+    />
+  </div>
+</Fragment>
+`;
