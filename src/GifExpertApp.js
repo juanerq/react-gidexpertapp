@@ -2,9 +2,9 @@ import { useState } from "react"
 import AddCategory from "./components/AddCategory"
 import { GifGrid } from "./components/GifGrid"
 
-const GifExpertApp = props => {
+const GifExpertApp = ({ defaultCategories = [] }) => {
 
-  const [categories, setCategory] = useState(['Dragon Ball'])
+  const [categories, setCategory] = useState(defaultCategories)
 
 
   return (
